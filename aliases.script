@@ -1,0 +1,44 @@
+alias ls='ls -G'
+alias ll='ls -l'
+alias g='git'
+alias k='knife'
+alias ls='ls -FG'
+alias cls='clear'
+alias ll='ls -lFG'
+alias kcu='knife cookbook upload'
+alias knl='knife node list'
+alias ..='cd ..'
+alias clean-ios-builds='rm -rf ~/library/Developer/Xcode/DerivedData/*'
+
+#alias cisco='cd ~/work/projects/cisco/'
+#alias js-client='cd ~/work/projects/cisco/js-search-client/'
+#alias search-server='cd ~/work/projects/cisco/es-search-server/'
+#alias chef-repo='cd ~/work/projects/cisco/chef-repo/'
+alias kickfeature='cd ~/work/Ideas/ios/kickfeature/'
+alias co-op='cd /Users/harib/work/Official/co-op/'
+alias retail='cd /Users/harib/work/Official/Tw/retail_commons'
+alias toadlane='cd /Users/harib/work/Official/co-op/toadlane'
+
+#co-op
+export TOADLANE_HOME="/Users/harib/work/Official/co-op/toadlane"
+
+#uscan ushop
+export USCAN_HOME="/Users/harib/work/Official/co-op/tibstreet"
+
+alias start_es='/Users/harib/work/projects/cisco/elasticsearch-0.20.6/bin/elasticsearch -f'
+
+#GIT
+alias g='git'
+alias gs='git status'
+alias gl='git log --pretty=format:"%h - %an, %ar : %s" --graph'
+alias ga='git add -i'
+alias k='knife'
+
+
+#MVN
+alias mist='mvn install -DskipTests'
+
+export PATH=$PATH:/Users/harib/Library/Developer/android/sdk/platform-tools
+export PATH=$PATH:/Users/harib/Library/Developer/android/sdk/tools
+
+
